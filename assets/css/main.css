@@ -4106,7 +4106,7 @@ div.demo img {
 .tp-footer-widget-1 span, .tp-footer-widget-2 span, .tp-footer-widget-3 span, .tp-footer-widget-4 span {
   position: relative;
   font-weight: 700;
-  font-size: 23px;
+  font-size: 20px;
   display: block;
   color: var(--tp-common-white);
   padding-bottom: 32px;
@@ -5032,6 +5032,12 @@ div.demo img {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+.about-img{
+  width: 100%;
+  margin-bottom: -4em;
+  width: 0px auto;
+ 
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-about-thumb-wrapper {
