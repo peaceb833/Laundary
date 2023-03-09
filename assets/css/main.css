@@ -4912,11 +4912,14 @@ div.demo img {
 .hero-active .is-visible .tp-hero__title {
   animation-delay: 0.8s;
   animation-duration: 1s;
+  font-size: larger;
+  line-height: 1.5em;
 }
 
 .hero-active .is-visible .tp-hero-content p {
   animation-delay: 1s;
   animation-duration: 1.2s;
+  margin-top: 2em;
 }
 
 .hero-active .is-visible .tp-hero-list {
