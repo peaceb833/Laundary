@@ -2314,8 +2314,8 @@ div.demo img {
 /*  2.11 Breadcrumb
 /*----------------------------------------*/
 .breadcrumb__title {
-  font-size: 48px;
-  color: var(--tp-common-white);
+  font-size: 28px;
+  
   text-transform: uppercase;
 }
 @media (max-width: 575px) {
@@ -6723,6 +6723,7 @@ div.demo img {
 }
 .tp-brands-2-wrapper .tp-section__title {
   text-transform: uppercase;
+  font-size: .6em;
 }
 .tp-brands-2-top {
   padding-left: 45px;
@@ -7251,7 +7252,7 @@ div.demo img {
   margin-bottom: 30px;
   transition: all 0.3s ease-in-out;
 }
-.tp-service-item-btn a {
+.tp-service-item-btn span {
   background: var(--tp-theme-primary);
   width: 50px;
   height: 50px;
@@ -7261,7 +7262,7 @@ div.demo img {
   color: var(--tp-common-white);
   transition: 0.2s;
 }
-.tp-service-item-btn a i {
+.tp-service-item-btn span i {
   transition: 0.2s;
 }
 .tp-service-item:hover {
@@ -7276,11 +7277,11 @@ div.demo img {
 .tp-service-item:hover p {
   color: #CFD3E4;
 }
-.tp-service-item:hover .tp-service-item-btn a {
+.tp-service-item:hover .tp-service-item-btn span {
   background: var(--tp-theme-secondary);
-  color: var(--tp-text-2);
+  color: white;
 }
-.tp-service-item:hover .tp-service-item-btn a i {
+.tp-service-item:hover .tp-service-item-btn span i {
   transform: rotate(45deg);
 }
 .tp-service-title {
@@ -7385,8 +7386,8 @@ div.demo img {
   background: var(--tp-common-white);
   box-shadow: 0px 11px 15px rgba(33, 68, 216, 0.08);
   position: relative;
-  width: 90px;
-  height: 90px;
+  width: 20px;
+  height: 20px;
   line-height: 2.5;
   left: 50%;
   transform: translateX(-50%);
@@ -8838,7 +8839,7 @@ div.demo img {
 }
 .tp-counter-title {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 30px;
   color: var(--tp-theme-secondary);
   transition: all 0.3s ease-in-out;
   margin-bottom: 0;
