@@ -5602,7 +5602,7 @@ div.demo img {
   background: url(../img/hero/IMG-20230126-WA0007.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: auto;
+  
   background-position: center,right;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
