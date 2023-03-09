@@ -5593,8 +5593,11 @@ div.demo img {
 .tp-hero-bg {
   height: 790px;
   width: 100%;
+  background: url(../img/hero/IMG-20230126-WA0007.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  padding: auto;
+  background-position: center,right;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-hero-bg {
@@ -8859,7 +8862,7 @@ div.demo img {
 }
 @media (max-width: 575px) {
   .tp-counter-2-wrapper {
-    padding: 57px 20px 8px;
+    /* padding: 57px 20px 8px; */
   }
 }
 .tp-counter-2-wrapper .tp-counter-thumb i {
