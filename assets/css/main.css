@@ -8233,6 +8233,7 @@ div.demo img {
 @media (max-width: 575px) {
   .tp-portfolio-area {
     padding-bottom: 80px;
+    background-color: #F4F6FD;
    
   }
 }
