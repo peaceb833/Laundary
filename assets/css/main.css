@@ -4179,8 +4179,8 @@ div.demo img {
 .tp-footer-widget-contact .icon {
   color: var(--tp-theme-secondary);
   background: #233049;
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   display: inline-block;
   text-align: center;
@@ -4195,6 +4195,7 @@ div.demo img {
 @media (max-width: 575px) {
   .tp-footer-widget-contact .icon {
     margin-right: 10px;
+    
   }
 }
 .tp-footer-widget-contact .contact-inner {
