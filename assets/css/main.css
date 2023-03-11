@@ -2349,6 +2349,7 @@ div.demo img {
   padding: 9px 23px;
   display: inline-block;
   margin-bottom: 22px;
+ 
 }
 .breadcrumb__list::before {
   position: absolute;
@@ -2364,6 +2365,7 @@ div.demo img {
   color: var(--tp-common-white);
   font-weight: 500;
   text-transform: capitalize;
+  
 }
 .breadcrumb__list span a:hover {
   color: var(--tp-theme-secondary);
@@ -2619,13 +2621,13 @@ div.demo img {
 }
 @media (max-width: 575px) {
   .tp-section__title {
-    font-size: 1.9em;
+    font-size: 1em;
   }
 }
 .tp-section__title-pre {
   position: relative;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 16px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -8447,6 +8449,7 @@ div.demo img {
 }
 .tp-portfolio-2-section-title-wrapper .tp-section__title {
   text-transform: uppercase;
+  font-size: 22px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tp-portfolio-2-section-title-wrapper .tp-section__title {
@@ -8830,10 +8833,12 @@ div.demo img {
 }
 .tp-counter-wrapper:hover .tp-counter-content h4 {
   color: var(--tp-common-white);
+
+  
 }
 .tp-counter-content p {
   font-weight: 600;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 29px;
   color: var(--tp-common-white);
 }
@@ -11125,8 +11130,8 @@ div.demo img {
 }
 .tp-shop-item-title-wrapper .tp-product-ammount {
   font-weight: 400;
-  font-size: 16px;
-  color: var(--tp-theme-primary);
+  font-size: 15px;
+  color: rgb(97, 96, 96);
 }
 .tp-shop-item-title-wrapper .tp-product-old-ammount {
   font-weight: 400;
@@ -11136,7 +11141,7 @@ div.demo img {
 }
 .tp-shop-item-title {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 15px;
 }
 .tp-shop-item-title a:hover {
   color: var(--tp-theme-secondary);
