@@ -1,3 +1,7 @@
+
+
+
+
 @charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
@@ -693,8 +697,8 @@ div.demo img {
 .back-to-top-wrapper {
   position: fixed;
   right: 50px;
-  bottom: 0;
-  height: 44px;
+  bottom: 0px;
+  height: 60vh;
   width: 44px;
   cursor: pointer;
   display: block;
@@ -2636,6 +2640,20 @@ div.demo img {
   padding: 9px 22px;
   display: inline-block;
   margin-bottom: 22px;
+}
+.tp-section__title-pret {
+  position: relative;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--tp-common-white);
+  
+  padding: 9px 22px;
+  display: inline-block;
+  margin-bottom: 22px;
+  text-align: center;
 }
 .tp-section__title-pre::before {
   position: absolute;
@@ -14178,4 +14196,16 @@ tr:nth-child(even) {
 th {
   background-color: #4CAF50;
   color: white;
+}
+
+.pricelist{
+  background-color:var(--tp-theme-primary);
+}
+.price{
+  font-size: 14px;
+}
+@media (max-width: 575px) {
+ .price {
+    font-size: 12px;
+  }
 }
