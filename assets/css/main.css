@@ -2379,6 +2379,7 @@ div.demo img {
   bottom: -40px;
   left: 50%;
   transform: translateX(-50%);
+ 
 }
 .breadcrumb__list .dvdr {
   font-size: 10px;
@@ -2390,7 +2391,7 @@ div.demo img {
 }
 .breadcrumb-style .breadcrumb__list span {
   font-weight: 600;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 16px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
