@@ -4043,6 +4043,7 @@ div.demo img {
 }
 .tp-footer-social a:hover {
   background-color: var(--tp-theme-secondary);
+  color: white;
 }
 .tp-footer-ml-18 {
   margin-left: -18px;
@@ -8341,6 +8342,7 @@ div.demo img {
 .tp-portfolio-content-btn a {
   background: var(--tp-theme-secondary);
   width: 50px;
+  margin: 2% auto;
   height: 50px;
   line-height: 50px;
   display: inline-block;
@@ -14208,4 +14210,16 @@ th {
  .price {
     font-size: 12px;
   }
+}
+
+.faq-item {
+  cursor: pointer;
+}
+
+.answer {
+  display: none;
+}
+
+.answer.show {
+  display: block;
 }

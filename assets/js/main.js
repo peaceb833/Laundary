@@ -1363,3 +1363,31 @@
 	
 })(jQuery);
 
+const faqItems = document.querySelectorAll('.faq-item');
+
+faqItems.forEach((item) => {
+  item.addEventListener('click', () => {
+    const answer = item.nextElementSibling;
+    answer.classList.toggle('show');
+  });
+});
+
+// Select the "Add to cart" buttons
+const addToCartBtns = document.querySelectorAll('.tp-shop-item .tp-product-price button');
+
+// Select the number element that shows the number of items in the cart
+const cartNumber = document.querySelector('.number');
+
+// Initialize the cart count to 0
+let cartCount = 0;
+
+// Add a click event listener to each "Add to cart" button
+addToCartBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    // Increment the cart count
+    cartCount++;
+
+    // Update the number element with the new count
+    cartNumber.textContent = cartCount;
+  });
+});
