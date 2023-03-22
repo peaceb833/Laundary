@@ -5130,6 +5130,17 @@ div.demo img {
   line-height: 1.9;
   margin-bottom: 40px;
 }
+.tp-about-section-title-wrapper h2 {
+
+  font-weight: 600;
+
+  font-size: 28px;
+
+  margin-bottom: 40px;
+  
+
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tp-about-section-title-wrapper .tp-section__title {
     font-size: 35px;
@@ -8333,6 +8344,11 @@ div.demo img {
     left: 30px;
     right: 30px;
   }
+  .tp-portfolio-area {
+    padding-bottom: 80px;
+    background-color: #F4F6FD;
+   
+  }
 }
 @media (max-width: 575px) {
   .tp-portfolio-content {
@@ -8386,9 +8402,14 @@ div.demo img {
   top: 60%;
   transition: all 0.3s ease-in-out;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1440px), only screen and (min-width: 576px) and (max-width: 767px) {
   .portfolio-active .splide__arrows .splide__arrow--prev {
     left: -20px;
+  }
+  .tp-portfolio-area {
+    padding-bottom: 80px;
+    background-color: #F4F6FD;
+   
   }
 }
 .portfolio-active .splide__arrows .splide__arrow--prev:hover {
@@ -8496,6 +8517,7 @@ div.demo img {
   .portfolio-active-2 .splide__arrows .splide__arrow--prev {
     left: -20px;
   }
+  
 }
 .portfolio-active-2 .splide__arrows .splide__arrow--prev:hover {
   background: var(--tp-theme-primary);
@@ -14215,6 +14237,8 @@ th {
 
 .faq-item {
   cursor: pointer;
+  font-size: 15px;
+  padding-top: 2em;
 }
 
 .answer {
@@ -14223,4 +14247,209 @@ th {
 
 .answer.show {
   display: block;
+}
+
+
+
+.learn{
+  background: #FDFCFC;
+
+}
+
+.member{
+  background-color: #E9742B;
+  width: 60%;
+height:100%;
+}
+.member a{
+  color: #F2F2F2;
+}
+
+.mem{
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 198%;
+/* or 28px */
+
+text-align: center;
+
+/* White */
+
+color: #ffffffee;
+
+
+
+}
+.button{
+  /* display: flex; */
+/* flex-direction: row; */
+justify-content: center;
+align-items: center;
+padding: 8px 80px;
+gap: 8px;
+
+/* position: absolute; */
+/* width: 193px; */
+/* height: 34px; */
+/* left: 59px; */
+/* top: 182px; */
+
+background: #FFFFFF;
+box-shadow: 4px -4px 5px rgba(252, 108, 18, 0.15), -4px 4px 6px rgba(252, 108, 18, 0.15);
+border-radius: 74px;
+/* font-family: 'Poppins'; */
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: justify;
+letter-spacing: 0.01em;
+
+color: #E9742B;
+}
+
+
+.button2{
+
+  /* display: flex; */
+
+/* flex-direction: row; */
+
+justify-content: center;
+
+align-items: center;
+
+padding: 8px 80px;
+
+gap: 8px;
+
+
+
+/* position: absolute; */
+
+/* width: 193px; */
+
+/* height: 34px; */
+
+/* left: 59px; */
+
+/* top: 182px; */
+
+
+
+background: #FFFFFF;
+
+/* box-shadow: 4px -4px 5px rgba(252, 108, 18, 0.15), -4px 4px 6px rgba(252, 108, 18, 0.15); */
+border: 1px solid  #E9742B;
+border-radius: 74px;
+
+/* font-family: 'Poppins'; */
+
+font-style: normal;
+
+font-weight: 700;
+
+font-size: 14px;
+
+line-height: 21px;
+
+/* identical to box height */
+
+
+
+text-align: justify;
+
+letter-spacing: 0.01em;
+
+
+
+color: #E9742B;
+
+}
+
+
+
+
+
+
+
+.mem2 span{
+  font-size: .7em;
+  margin-left: 12px;
+}
+.fa-check{
+  background-color: #EA925B;
+  color: white;
+  border-radius: 50%;
+  font-size: .6em;
+}
+.new {
+  font-size: .8em;
+}
+.service{
+
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height */
+width:60%;
+height: 80%;
+
+
+}
+.service a{
+color: #2C3E50;
+}
+.service2{
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  }
+.rand{
+  color: #2C3E50;
+
+}
+.fa-minus{
+  background-color:#F3F3F3;
+  border-radius: 50%;
+  font-size: .7em;
+}
+.choose{
+  /* position: absolute; */
+/* width: 241px; */
+/* height: 83px; */
+/* left: 30px; */
+/* top: 80px; */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 198%;
+/* or 28px */
+
+
+/* dark blue */
+
+color: #2C3E50;
+}
+.choose, p{
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+
+/* dark blue */
+
+color: #2C3E50;
+
+
+/* Inside auto layout */
 }
