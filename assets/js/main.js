@@ -1386,8 +1386,11 @@ addToCartBtns.forEach(btn => {
   btn.addEventListener('click', () => {
     // Increment the cart count
     cartCount++;
+	
 
     // Update the number element with the new count
     cartNumber.textContent = cartCount;
+	btn.textContent='added'
+	
   });
 });

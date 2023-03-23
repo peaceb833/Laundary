@@ -2637,7 +2637,7 @@ div.demo img {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--tp-common-white);
-  background-color: var(--tp-theme-primary);
+  /* background-color: var(--tp-theme-primary); */
   padding: 9px 22px;
   display: inline-block;
   margin-bottom: 22px;
@@ -3766,7 +3766,7 @@ div.demo img {
 }
 .tp-blog-sidebar__widget-title {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 29px;
   margin-bottom: 30px;
 }
@@ -5061,8 +5061,9 @@ div.demo img {
 }
 .about-img{
   width: 100%;
-  margin-bottom: -4em;
+  border-radius: 50%;
   width: 0px auto;
+height: 100%;
  
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
@@ -9360,7 +9361,7 @@ div.demo img {
 .tp-testimonial-2-wrapper .tp-testimonial-title {
   font-weight: 700;
   text-align: center;
-  font-size: 25px;
+  font-size: 17px;
   line-height: 29px;
   margin-bottom: 5px;
 }
@@ -12571,7 +12572,7 @@ p.checkout-coupon input[type=text]:focus {
 
 .your-order {
   padding: 30px 40px 45px;
-  border: 1px solid rgb(234, 187, 0);
+  /* border: 1px solid rgb(234, 187, 0); */
 }
 
 @media (max-width: 767px) {
@@ -12579,16 +12580,16 @@ p.checkout-coupon input[type=text]:focus {
     padding: 15px;
   }
 }
-.your-order h3 {
-  border-bottom: 1px solid #eaedff;
-  font-size: 30px;
-  margin: 0 0 20px;
-  padding-bottom: 10px;
-  width: 100%;
-}
+/* .your-order h3 { */
+  /* border-bottom: 1px solid #eaedff; */
+  /* font-size: 30px; */
+  /* margin: 0 0 20px; */
+  /* padding-bottom: 10px; */
+  /* width: 100%; */
+/* } */
 
 .your-order-table table {
-  background: none;
+  /* background: none; */
   border: 0;
   width: 100%;
 }
@@ -12609,12 +12610,13 @@ p.checkout-coupon input[type=text]:focus {
 }
 .your-order-table table th {
   border-top: medium none;
-  color: #6f7172;
+  color:white;
   font-weight: normal;
   text-align: left;
   vertical-align: middle;
   white-space: nowrap;
   width: 250px;
+  background-color: var(--tp-text-primary);
 }
 
 .panel-body > p {
@@ -14237,12 +14239,14 @@ th {
 
 .faq-item {
   cursor: pointer;
-  font-size: 15px;
+  font-size: 13px;
   padding-top: 2em;
+  font-weight: bold;
 }
 
 .answer {
   display: none;
+  color: grey;
 }
 
 .answer.show {
