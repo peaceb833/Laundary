@@ -2637,7 +2637,7 @@ div.demo img {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--tp-common-white);
-  /* background-color: var(--tp-theme-primary); */
+  background-color: var(--tp-theme-primary);
   padding: 9px 22px;
   display: inline-block;
   margin-bottom: 22px;
