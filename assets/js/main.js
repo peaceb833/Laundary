@@ -1391,6 +1391,30 @@ addToCartBtns.forEach(btn => {
     // Update the number element with the new count
     cartNumber.textContent = cartCount;
 	btn.textContent='added'
-	
+
   });
 });
+// Get the search box input element
+const searchBox = document.querySelector('.tp-service-details__search-box input[type="text"]');
+
+// Get all the shop item titles
+const shopItemTitles = document.querySelectorAll('.tp-shop-item-title');
+
+// Add an event listener to the search box input element
+searchBox.addEventListener('input', () => {
+  // Get the search query
+  const query = searchBox.value.trim().toLowerCase();
+
+  // Loop through all the shop item titles and hide/show them based on the search query
+  for (let i = 0; i < shopItemTitles.length; i++) {
+    const title = shopItemTitles[i].textContent.toLowerCase();
+    if (title.includes(query)) {
+      shopItemTitles[i].parentNode.parentNode.style.display = '';
+    } else {
+      shopItemTitles[i].parentNode.parentNode.style.display = 'none';
+    }
+  }
+});
+
+
+
