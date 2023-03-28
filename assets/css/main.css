@@ -5765,7 +5765,7 @@ height: 100%;
   color:rgb(213, 215, 238);
   font-weight: 900;
   font-size:1em;
-line-height: 2em;
+line-height: 2.7em;
 
 }
 @media (max-width: 575px) {
@@ -10782,7 +10782,7 @@ line-height: 2em;
   position: relative;
   font-weight: 500;
   font-size: 17px;
-  color: #6A6D7A;
+  color: #464f77;
   list-style: none;
   padding-left: 30px;
   margin-bottom: 1px;
