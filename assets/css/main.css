@@ -7307,6 +7307,7 @@ line-height: 3em;
 }
 .tp-service-item:hover {
   background-color: var(--tp-theme-primary);
+  color: white;
 }
 .tp-service-item:hover .item-shape {
   opacity: 0.15;
