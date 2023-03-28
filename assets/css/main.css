@@ -5762,9 +5762,10 @@ height: 100%;
   margin-bottom: 12px;
 }
 .lagos-university{
-  color: gold;
+  color:rgb(213, 215, 238);
   font-weight: 900;
   font-size:1em;
+line-height: 3em;
 
 }
 @media (max-width: 575px) {
@@ -7186,7 +7187,7 @@ height: 100%;
   font-weight: 500;
   font-size: 14px;
   color: var(--tp-text-2);
-  background: var(--tp-theme-secondary);
+  background: #d9e0fa;
   padding: 18px 24px;
   overflow: hidden;
 }
@@ -10593,7 +10594,7 @@ height: 100%;
   }
 }
 .tp-pricing-item {
-  background: #F4F6FD;
+  background: #d9e0fa;
   padding: 0 50px 43px 50px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
