@@ -5762,10 +5762,11 @@ height: 100%;
   margin-bottom: 12px;
 }
 .lagos-university{
-  color:rgb(213, 215, 238);
+  color:rgb(211, 220, 224);
   font-weight: 900;
   font-size:1em;
-line-height: 2.7em;
+line-height: 2em;
+text-shadow: 0px 1px 1px rgb(157, 197, 223);
 
 }
 @media (max-width: 575px) {
@@ -7293,6 +7294,7 @@ line-height: 2.7em;
   margin-bottom: 30px;
   transition: all 0.3s ease-in-out;
 }
+
 .tp-service-item-btn span {
   background: var(--tp-theme-primary);
   width: 50px;
@@ -7310,13 +7312,14 @@ line-height: 2.7em;
   background-color: var(--tp-theme-primary);
   color: white;
 }
+
 .tp-service-item:hover .item-shape {
   opacity: 0.15;
 }
 .tp-service-item:hover .tp-service-title {
   color: #F4F6FD;
 }
-.tp-service-item:hover p {
+.tp-service-item  :hover p {
   color: #CFD3E4;
 }
 .tp-service-item:hover .tp-service-item-btn span {
@@ -7325,6 +7328,7 @@ line-height: 2.7em;
 }
 .tp-service-item:hover .tp-service-item-btn span i {
   transform: rotate(45deg);
+  
 }
 .tp-service-title {
   font-size: 21px;
@@ -8324,7 +8328,7 @@ line-height: 2.7em;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tp-portfolio-section-title-wrapper {
-    margin-bottom: 30px;
+    margin-bottom: 6px;
   }
 }
 .tp-portfolio-content {
