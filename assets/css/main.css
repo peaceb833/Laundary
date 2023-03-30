@@ -7688,7 +7688,7 @@ text-shadow: 0px 1px 1px rgb(194, 220, 238);
   font-weight: 500;
   font-size: 14px;
   color: var(--tp-text-2);
-  background: var(--tp-theme-secondary);
+  /* background: var(--tp-theme-secondary); */
   height: 62px;
   width: 62px;
   line-height: 62px;
