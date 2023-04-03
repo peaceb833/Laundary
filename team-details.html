@@ -24,6 +24,8 @@
       <link rel="stylesheet" href="assets/css/circularProgressBar.css">
       <link rel="stylesheet" href="assets/css/spacing.css">
       <link rel="stylesheet" href="assets/css/main.css">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
    </head>
    <body>
       <!--[if lte IE 9]>
@@ -182,7 +184,7 @@
 
                                     <li> <a class="text-primary" href="about.html">About</a></li>
 
-                                    <li class=""> <a href="service.html" class="text-primary">Services</a>
+                                    <!-- <li class=""> <a href="service.html" class="text-primary">Services</a> -->
 
                                        <!-- <ul class="submenu"> -->
 
@@ -395,7 +397,7 @@
       <main>
 
          <!-- about breadcrumb area start -->
-         <section class="breadcrumb__area breadcrumb-style  pb-60 p-relative z-index-1" >
+         <section class="breadcrumb__area breadcrumb-style  pb-60 p-relative z-index-1"  data-aos="fade-up" >
             <!-- <div class="breadcrumb__bg-overlay m-img"></div> -->
             <!-- <div class="breadcrumb-shape  d-none d-lg-block"> -->
                <!-- <div class="shape-1"> -->
@@ -435,7 +437,7 @@
 
 
          <!-- service details area start -->
-            <section class="tp-shop-breadcrumb-area  ">
+            <section class="tp-shop-breadcrumb-area  " data-aos="fade-left">
                <div class="container">
                   <div class="">
                      <div class="">
@@ -1390,5 +1392,7 @@
       <script src="assets/js/purecounter.js"></script>
       <script src="assets/js/ajax-form.js"></script>
       <script src="assets/js/main.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script> AOS.init({duration:2000}); </script>
    </body>
 </html>

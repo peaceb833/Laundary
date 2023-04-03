@@ -4043,7 +4043,7 @@ div.demo img {
   }
 }
 .tp-footer-social a:hover {
-  background-color: var(--tp-theme-secondary);
+  background-color: var(--tp-theme-primary);
   color: white;
 }
 .tp-footer-ml-18 {
@@ -4068,6 +4068,8 @@ div.demo img {
   .tp-footer-ml-45 {
     margin-left: 25px;
   }
+  
+  
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tp-footer-ml-45 {
@@ -4079,6 +4081,7 @@ div.demo img {
   .tp-footer-widget-area {
     padding-bottom: 40px;
   }
+  
 }
 @media (max-width: 575px) {
   .tp-footer-widget-1 {
